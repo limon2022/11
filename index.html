@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <form>
+            <fieldset class="account">
+                <legend>Account</legend>
+                <p><input type="text" placeholder="Full Name"></p>
+                <p><input type="text" placeholder="Email Adress"></p>
+                <p><input type="password" placeholder="Password"></p>
+            </fieldset>
+            <div>
+                <fieldset class="birth">
+                    <legend>Date of Birth</legend>
+                    <input type="text" placeholder="DD">
+                    <input type="text" placeholder="MM">
+                    <input type="text" placeholder="YYYY">
+                </fieldset>
+                <fieldset class="gender">
+                    <legend>Gender</legend>
+                    <table>
+                        <tr>
+                            <td><input type="button" value="Hale"></td>
+                            <td><input type="button" value="Female"></td>
+                        </tr>
+                    </table>
+
+
+
+                </fieldset>
+            </div>
+            <fieldset class="payment">
+                <legend>Payment Details</legend>
+                <table>
+                    <tr>
+                        <td><input class='active' type="button" value="Credit Cart" ></td>
+                        <td><input type="button" value="PayPal" ></td>
+                    </tr>
+                </table>
+                <p></p>
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Card CVC"></td>
+                        <td><input type="text" placeholder="Card Number"></td>
+                    </tr>
+                </table>
+                <p>
+
+                    <select>
+                        <option>01 Jan</option>
+                        <option>01 Fr</option>
+                        <option>01 Mar</option>
+                    </select>
+                    <select>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+</html>
